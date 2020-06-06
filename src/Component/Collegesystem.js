@@ -1,12 +1,12 @@
 import React from "react";
 import { Tabs } from "antd";
-import Firstform from "./Firstform";
+import Firstform from "./FacilityForm";
 import Facility from "./Facility";
 import About from "./About";
 
 const { TabPane } = Tabs;
 
-function Collegesystem() {
+function CollegeSystem() {
   return (
     <div style={{ margin: "auto 5rem" }}>
       <Tabs defaultactivekey="1">
@@ -25,4 +25,4 @@ function Collegesystem() {
   );
 }
 
-export default Collegesystem;
+export default CollegeSystem;

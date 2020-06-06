@@ -20,7 +20,8 @@ const tailLayout = {
 
 const { TextArea } = Input;
 const { TabPane } = Tabs;
-function Firstform() {
+
+function FacilityForm() {
   const { watch, control } = useForm();
   const watchallfiels = watch({ nest: true });
   const onFinish = (values) => {
@@ -68,7 +69,7 @@ function Firstform() {
         <TabPane key="2" tab="Registration form">
           <div style={{ display: "flex" }}>
             <Card
-              title="Registration Your Self Here"
+              title="Register Your Self Here"
               type="inner"
               style={{
                 width: 400,
@@ -123,9 +124,10 @@ function Firstform() {
             </pre>
           </div>
         </TabPane>
+        <TabPane key="3" tab="Facilities"></TabPane>
       </Tabs>
     </div>
   );
 }
 
-export default Firstform;
+export default FacilityForm;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Comment, Card, Form, Input, Button, BackTop } from "antd";
-import { CommentOutlined, UpOutlined } from "@ant-design/icons";
+import { CommentOutlined } from "@ant-design/icons";
 import Library from "../Library.svg";
 import Hostel from "../hostel.svg";
 import Sports from "../sports.svg";
@@ -78,5 +78,4 @@ function Facility() {
     </div>
   );
 }
-
 export default Facility;
