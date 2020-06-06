@@ -1,5 +1,6 @@
 import React from "react";
 import { Rate, Card, notification, Button, Popover, Space } from "antd";
+import { FiMail, FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 import clg_img from "../college2.jpg";
 
 const openNotification = () => {
@@ -55,6 +56,26 @@ function About() {
             <Rate allowHalf defaultValue={4.5}></Rate>
           </Space>
         </Card>
+        <p>Contact us at:</p>
+        <a
+          href="https://www.facebook.com/search/top/?q=utu%20maliba%20campus"
+          target="_blank"
+        >
+          <FiFacebook
+            style={{ height: 30, width: 30, marginRight: "10px" }}
+          ></FiFacebook>
+        </a>
+        <a href="https://www.instagram.com/utu.malibacampus/" target="_blank">
+          <FiInstagram
+            style={{ height: 30, width: 30, marginRight: "10px" }}
+          ></FiInstagram>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UC2N7bQCLyHnUnMfTwA8MgMw"
+          target="_blank"
+        >
+          <FiYoutube style={{ height: 30, width: 30 }}></FiYoutube>
+        </a>
       </Card>
     </div>
   );

@@ -118,7 +118,7 @@ function Firstform() {
                 </Form.Item>
               </Form>
             </Card>
-            <pre style={{ backgroundColor: "#ffff44" }}>
+            <pre style={{ backgroundColor: "#C2D4EA" }}>
               {JSON.stringify(watchallfiels, null, 2)}
             </pre>
           </div>
