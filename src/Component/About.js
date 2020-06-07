@@ -1,6 +1,6 @@
 import React from "react";
 import { Rate, Card, notification, Button, Popover, Space } from "antd";
-import { FiMail, FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 import clg_img from "../college2.jpg";
 
 const openNotification = () => {

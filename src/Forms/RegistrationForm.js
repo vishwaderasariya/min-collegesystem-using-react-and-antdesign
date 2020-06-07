@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, Controller } from "react-hook-form";
-import { Button, Input, Card, Form, Radio, Tabs, onFinish } from "antd";
+import { Button, Input, Form, Radio, Tabs, onFinish } from "antd";
 import "antd/dist/antd.css";
 
 const layout = {

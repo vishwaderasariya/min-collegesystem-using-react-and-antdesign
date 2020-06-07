@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs } from "antd";
-import Firstform from "./FacilityForm";
+import FacilityForm from "./FacilityForm";
 import Facility from "./Facility";
 import About from "./About";
 
@@ -15,7 +15,7 @@ function CollegeSystem() {
         </TabPane>
 
         <TabPane key="2" tab="Forms">
-          <Firstform />
+          <FacilityForm />
         </TabPane>
         <TabPane key="3" tab="Facilities">
           <Facility />

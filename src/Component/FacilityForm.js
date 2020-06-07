@@ -1,6 +1,6 @@
 import React from "react";
-import { useForm, Controller } from "react-hook-form";
-import { Button, Input, Card, Form, Radio, Tabs } from "antd";
+import { useForm } from "react-hook-form";
+import { Card, Tabs } from "antd";
 import "antd/dist/antd.css";
 import LoginForm from "../Forms/LoginForm";
 import RegistrationForm from "../Forms/RegistrationForm";
