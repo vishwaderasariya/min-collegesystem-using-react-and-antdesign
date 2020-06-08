@@ -27,33 +27,7 @@ function Facility() {
   console.log(data);
   return (
     <Tabs tabPosition="left">
-      <TabPane key="1" tab="Facilities">
-        <Row gutter={6}>
-          {data.map((value, index) => (
-            <Col span={12} style={{ margin: "6px 0" }}>
-              <Card title={value.title}>
-                <p>{value.desc}</p>
-              </Card>
-            </Col>
-          ))}
-        </Row>
-
-        <Card title="Comments">
-          <Comment>
-            <Form.Item>
-              <TextArea rows={4} />
-            </Form.Item>
-            <Form.Item>
-              <Button type="primary" size="small" icon={<CommentOutlined />}>
-                Add Comment
-              </Button>
-            </Form.Item>
-          </Comment>
-          <BackTop></BackTop>
-        </Card>
-      </TabPane>
-
-      <TabPane key="2" tab="Add Facilities">
+      <TabPane key="1" tab="Add Facilities">
         <Card style={{ width: 600, height: 400, margin: "1rem auto" }}>
           <Form>
             <Form.Item
@@ -102,6 +76,32 @@ function Facility() {
               </Button>
             </Form.Item>
           </Form>
+        </Card>
+      </TabPane>
+
+      <TabPane key="2" tab="Facilities">
+        <Row gutter={6}>
+          {data.map((value, index) => (
+            <Col span={12} style={{ margin: "6px 0" }}>
+              <Card title={value.title} style={{ backgroundColor: "#C1D1EA" }}>
+                <p>{value.desc}</p>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+
+        <Card title="Comments">
+          <Comment>
+            <Form.Item>
+              <TextArea rows={4} />
+            </Form.Item>
+            <Form.Item>
+              <Button type="primary" size="small" icon={<CommentOutlined />}>
+                Add Comment
+              </Button>
+            </Form.Item>
+          </Comment>
+          <BackTop></BackTop>
         </Card>
       </TabPane>
     </Tabs>
